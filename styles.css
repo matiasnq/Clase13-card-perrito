@@ -1,0 +1,90 @@
+:root {
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    font-family: monospace;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-rows: 20% 60% 20% ;
+    height: 250px;
+    width: 400px;
+    background-color: #91BEBB;
+    border-radius: 05%;
+}
+
+.columna1 {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    align-items: center;   
+    justify-content: center;
+}
+
+.columna2 {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+}
+
+.columna2-1 div {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.columna2-2 {
+    display: grid;
+    width: 130px;
+}
+
+.columna2-2 p{
+    display: grid;
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 0px;
+    align-items: flex-start;
+}
+
+.columna2-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 130px;
+}
+
+.columna2-3 p{
+    font-size: 1rem;
+    color: black;
+}
+
+.columna3 {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+}
+
+.img_perro1 {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+}
+
+.columna4{
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+}
+
+.img_perro_grande img{
+    width: 160px;
+    height: 170px;
+    margin-top: -30px;
+    border-radius: 20%;
+}
+
+.columna4 div p{
+    display: grid;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
